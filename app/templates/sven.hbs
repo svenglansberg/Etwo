@@ -1,0 +1,15 @@
+{{#link-to 'index' class='u-linkClean'}}text{{/link-to}}
+{{!-- <sven-g>
+Jaha, yiledas detta nu då?
+</sven-g> --}}
+{{#sven-g}}
+Jaha, yiledas detta nu då?
+{{/sven-g}}
+
+{{#each item in model}}
+  <p>
+  <div class="sven">
+    {{item.text}}
+  </div>
+  </p>
+{{/each}}
